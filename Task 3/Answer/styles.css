@@ -1,0 +1,61 @@
+.blueContainer {
+  background-color: rgb(46, 154, 226);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  padding: 30px 0px 0px 0px;
+}
+
+.blogContainer {
+  background-color: white;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.headerDiv {
+  width: 100%;
+  height: 15vh;
+}
+
+.imageDiv {
+  width: 100%;
+  height: 35vh;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.singleBlogContainer {
+  text-align: start;
+  padding: 10px;
+}
+
+.singleBlogContainer .blogTitle {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.singleBlogContainer .blogAuthorName {
+  margin-bottom: 20px;
+}
+
+.yellowDiv {
+  background-color: rgb(255, 207, 49);
+  height: 15vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.redDiv {
+  background-color: rgb(223, 93, 46);
+  height: 30px;
+  width: 90%;
+  margin-top: 5px;
+  display: grid;
+  place-items: center;
+}

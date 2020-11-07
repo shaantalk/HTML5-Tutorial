@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment1 - Inline CSS</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="cyanContainer">
+            <div class="header">Survey Form</div>
+            <form>
+                <div class="formContainer">
+                    <div class="formHeader">Let us know how we can improve freeCodeCamp</div>
+
+                    <!-- Name -->
+                    <div class="formEntry">
+                        <div class="entryLabel"> 
+                            <div class="pr-10">
+                                * Name
+                            </div>
+                        </div>
+                        <div class="entryElement"> 
+                            <input type="text" class="floatLeft" placeholder="Enter your name"> 
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="formEntry">
+                        <div class="entryLabel"> 
+                            <div class="pr-10">
+                                * Email
+                            </div>
+                        </div>
+                        <div class="entryElement"> 
+                            <input type="text" class="floatLeft" placeholder="Enter your Email"> 
+                        </div>
+                    </div>
+
+                    <!-- Age -->
+                    <div class="formEntry">
+                        <div class="entryLabel"> 
+                            <div class="pr-10">
+                                * Age
+                            </div>
+                        </div>
+                        <div class="entryElement"> 
+                            <input type="number" class="floatLeft" placeholder="Age"> 
+                        </div>
+                    </div>
+
+                    <!-- Current Role -->
+                    <div class="formEntry">
+                        <div class="entryLabel"> 
+                            <div class="pr-10">
+                                Which option best describes your current role ?
+                            </div>
+                        </div>
+                        <div class="entryElement"> 
+                            <select name="roles" class="floatLeft">
+                                <option value="student">Student</option>
+                                <option value="teacher">Teacher</option>
+                                <option value="principal">Principal</option>
+                                <option value="director">Director</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- How likely to recommend -->
+                    <div class="formEntry" style="margin-bottom: 55px;">
+                        <div class="entryLabel"> 
+                            <div class="pr-10">
+                                * How likely is that you would recommend freeCodeCamp to a friend ?
+                            </div>
+                        </div>
+                        <div class="entryElement">
+                            <div class="floatLeft">
+                                <div class="w100">
+                                    <input type="radio" id="definitely" style="float: left;">
+                                    <label for="definitely">Definitely</label>
+                                </div>
+                                <div class="w100">
+                                    <input type="radio" id="maybe" style="float: left;">
+                                    <label for="maybe">May Be</label>
+                                </div> 
+                                <div class="w100">
+                                    <input type="radio" id="notsure" style="float: left;">
+                                    <label for="notsure">Not Sure</label>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+
+
+                     <!-- Like Most in FCC -->
+                     <div class="formEntry">
+                        <div class="entryLabel"> 
+                            <div class="pr-10">
+                                What do you like best in FCC ?
+                            </div>
+                        </div>
+                        <div class="entryElement"> 
+                            <select name="likes" style="float: left;">
+                                <option value="option1">Option 1</option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                                <option value="option4">Option 4</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <!-- Things that should be improved in future -->
+                    <div class="formEntry">
+                        <div class="entryLabel"> 
+                            <div class="pr-10">
+                                Things that should be improved in future ?
+                            </div>
+                        </div>
+                        <div class="entryElement">
+                            <div class="floatLeft">
+                                <div class="w100">
+                                    <input type="checkbox" id="Front-end">
+                                    <label for="Front-end">Front-end Projects</label>
+                                </div>
+                                <div class="w100">
+                                    <input type="checkbox" id="Back-end">
+                                    <label for="Back-end">Back-end Projects</label>
+                                </div> 
+                                <div class="w100">
+                                    <input type="checkbox" id="DataVisualization">
+                                    <label for="DataVisualization">Data Visualization</label>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="formEntry" style="padding-top: 20px;">
+                        <button type="submit" class="submitButton"> Submit </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

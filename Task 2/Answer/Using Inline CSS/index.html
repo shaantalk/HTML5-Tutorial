@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment1 - Inline CSS</title>
+    </head>
+    <body>
+        <div style="background-color: rgb(135, 214, 214); width:100%; height:100vh; text-align: center;">
+            <div style="font-size: xx-large; font-weight: bolder; padding: 20px 0px 20px 0px;">Survey Form</div>
+            <form>
+                <div style="background-color: white; width: 90%; height:80vh; margin: auto; text-align: center; border-radius: 5px;">
+                    <div style="font-size: large; font-weight:300; margin: auto; padding: 20px 0px 20px 0px">Let us know how we can improve freeCodeCamp</div>
+
+                    <!-- Name -->
+                    <div style="width:80%; margin: auto; height:30px; margin-bottom: 20px;">
+                        <div style="width: 50%; height: 100%; float: left; text-align: end;"> 
+                            <div style="padding-right: 10px;">
+                                * Name
+                            </div>
+                        </div>
+                        <div style="margin-left: 50%; height: 100%; padding-left: 10px;"> 
+                            <input type="text" style="float: left;" placeholder="Enter your name"> 
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div style="width:80%; margin: auto; height:30px; margin-bottom: 20px;">
+                        <div style="width: 50%; height: 100%; float: left; text-align: end;"> 
+                            <div style="padding-right: 10px;">
+                                * Email
+                            </div>
+                        </div>
+                        <div style="margin-left: 50%; height: 100%; padding-left: 10px;"> 
+                            <input type="text" style="float: left;" placeholder="Enter your Email"> 
+                        </div>
+                    </div>
+
+                    <!-- Age -->
+                    <div style="width:80%; margin: auto; height:30px; margin-bottom: 20px;">
+                        <div style="width: 50%; height: 100%; float: left; text-align: end;"> 
+                            <div style="padding-right: 10px;">
+                                * Age
+                            </div>
+                        </div>
+                        <div style="margin-left: 50%; height: 100%; padding-left: 10px;"> 
+                            <input type="number" style="float: left;" placeholder="Age"> 
+                        </div>
+                    </div>
+
+                    <!-- Current Role -->
+                    <div style="width:80%; margin: auto; height:30px; margin-bottom: 20px;">
+                        <div style="width: 50%; height: 100%; float: left; text-align: end;"> 
+                            <div style="padding-right: 10px;">
+                                Which option best describes your current role ?
+                            </div>
+                        </div>
+                        <div style="margin-left: 50%; height: 100%; padding-left: 10px;"> 
+                            <select name="roles" style="float: left;">
+                                <option value="student">Student</option>
+                                <option value="teacher">Teacher</option>
+                                <option value="principal">Principal</option>
+                                <option value="director">Director</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- How likely to recommend -->
+                    <div style="width:80%; margin: auto; height:30px; margin-bottom: 55px;">
+                        <div style="width: 50%; height: 100%; float: left; text-align: end;"> 
+                            <div style="padding-right: 10px;">
+                                * How likely is that you would recommend freeCodeCamp to a friend ?
+                            </div>
+                        </div>
+                        <div style="margin-left: 50%; height: 100%; padding-left: 10px;">
+                            <div style="float: left;">
+                                <div style="width: 100%;">
+                                    <input type="radio" id="definitely" style="float: left;">
+                                    <label for="definitely">Definitely</label>
+                                </div>
+                                <div style="width: 100%;">
+                                    <input type="radio" id="maybe" style="float: left;">
+                                    <label for="maybe">May Be</label>
+                                </div> 
+                                <div style="width: 100%;">
+                                    <input type="radio" id="notsure" style="float: left;">
+                                    <label for="notsure">Not Sure</label>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+
+
+                     <!-- Like Most in FCC -->
+                     <div style="width:80%; margin: auto; height:30px; margin-bottom: 20px;">
+                        <div style="width: 50%; height: 100%; float: left; text-align: end;"> 
+                            <div style="padding-right: 10px;">
+                                What do you like best in FCC ?
+                            </div>
+                        </div>
+                        <div style="margin-left: 50%; height: 100%; padding-left: 10px;"> 
+                            <select name="likes" style="float: left;">
+                                <option value="option1">Option 1</option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                                <option value="option4">Option 4</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <!-- Things that should be improved in future -->
+                    <div style="width:80%; margin: auto; height:30px; margin-bottom: 20px;">
+                        <div style="width: 50%; height: 100%; float: left; text-align: end;"> 
+                            <div style="padding-right: 10px;">
+                                Things that should be improved in future ?
+                            </div>
+                        </div>
+                        <div style="margin-left: 50%; height: 100%; padding-left: 10px;">
+                            <div style="float: left;">
+                                <div style="width: 100%;">
+                                    <input type="checkbox" id="Front-end">
+                                    <label for="Front-end">Front-end Projects</label>
+                                </div>
+                                <div style="width: 100%;">
+                                    <input type="checkbox" id="Back-end">
+                                    <label for="Back-end">Back-end Projects</label>
+                                </div> 
+                                <div style="width: 100%;">
+                                    <input type="checkbox" id="DataVisualization">
+                                    <label for="DataVisualization">Data Visualization</label>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+
+                    <div style="width:80%; margin: auto; height:30px; padding-top: 20px;">
+                        <button type="submit" style="width: 20%; background-color: #007bff; border-color: #007bff; color: white; text-align: center; border-radius: 5px; height: 100%;"> Submit </button>
+                    
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
