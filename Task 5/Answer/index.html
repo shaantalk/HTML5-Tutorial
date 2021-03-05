@@ -1,0 +1,41 @@
+<html>
+    <head> 
+        <meta charset=utf-8 /> 
+        <title>Task 6</title> 
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body style="display: grid; place-items: center;"> 
+
+        <div class="container">
+            <div class="tableContainer"> 
+                <table id="myTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Roll Number</th>
+                        </tr>
+                    </thead> 
+                    <tbody>
+        
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="formContainer">
+                <div class="midContainer">
+                    <div class="formElem">
+                        <input class="formInput" type="text" id="nameTextField" placeholder="Enter Name Here"/>
+                    </div>
+                    <div class="formElem">
+                        <input class="formInput"type="number" id="rollNoTextField" placeholder="Enter Roll Here"/>
+                    </div>
+                    <div class="formElem">
+                        <input type="button" class="myButton" onclick="insertRow()" value="Insert row">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

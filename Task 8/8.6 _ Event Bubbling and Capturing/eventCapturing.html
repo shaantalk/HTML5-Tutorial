@@ -1,0 +1,22 @@
+<html>
+<head></head>
+ <body>
+    <div style="width: 100%; height: 10vh; background:rgb(160, 84, 84);text-align: center; color: white;">Event Bubbling and Event Capturing</div>
+
+    <!-- 1st rectangle -->
+    <div id="one" style="width: 800px; height: 800px; background: lightblue; display:grid; place-items: center;" >
+        <!-- 2nd rectangle -->
+        <div id="two" style="width: 50%; height: 50%; background: rgb(64, 107, 64); display:grid; place-items: center;"> 
+            <!-- 3rd rectangle -->
+            <div id="three" style="width: 50%; height: 50%; background: rgb(143, 141, 26); text-align: center; color: white;">
+                Click Me Please
+            </div>
+        </div>
+    </div>
+ </body>
+ <script>
+     document.getElementById("one").addEventListener("click",()=>alert("clicked the div with id one"))
+     document.getElementById("two").addEventListener("click",()=>alert("clicked the div with id Two"))
+     document.getElementById("three").addEventListener("click",()=>alert("clicked the div with id Three"))
+ </script>
+</html>

@@ -1,0 +1,17 @@
+<html>
+<head></head>
+ <body>
+    <div style="width: 100%; height: 10vh; background:rgb(160, 84, 84);text-align: center; color: white;">Event Bubbling and Event Capturing</div>
+
+    <!-- 1st rectangle -->
+    <div style="width: 800px; height: 800px; background: lightblue; display:grid; place-items: center;" onclick="alert(`1st rectangle`)">
+        <!-- 2nd rectangle -->
+        <div style="width: 50%; height: 50%; background: rgb(64, 107, 64); display:grid; place-items: center;" onclick="alert(`2nd rectangle`)"> 
+            <!-- 3rd rectangle -->
+            <div style="width: 50%; height: 50%; background: rgb(143, 141, 26); text-align: center; color: white;" onclick="alert(`3rd rectangle`)">
+                Click Me Please
+            </div>
+        </div>
+    </div>
+ </body>
+</html>
